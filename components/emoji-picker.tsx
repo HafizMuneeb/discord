@@ -32,11 +32,11 @@ export const EmojiPicker = ({
         sideOffset={40}
         className="bg-transparent border-none shadow-none drop-shadow-none mb-16"
       >
-        <Picker
+        {/* <Picker
           theme={resolvedTheme}
           data={data}
           onEmojiSelect={(emoji: any) => onChange(emoji.native)}
-        />
+        /> */}
       </PopoverContent>
     </Popover>
   )
